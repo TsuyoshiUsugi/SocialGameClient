@@ -30,7 +30,7 @@ namespace Outgame
                 UserModel.Load();
 
                 //Firebase
-                FirebaseAnalyticsLogger.Setup(UserModel.GUID);
+                //FirebaseAnalyticsLogger.Setup(UserModel.GUID);
 
                 //ログインAPI
                 //NOTE: sessionとtokenを受け取るためにユーザがいなくてもloginを通す

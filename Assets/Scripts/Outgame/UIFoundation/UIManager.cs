@@ -98,7 +98,7 @@ public class UIManager
         
         CreateUIParts(next);
 
-        FirebaseAnalyticsLogger.AnalyticsSceneView(next);
+        //FirebaseAnalyticsLogger.AnalyticsSceneView(next);
 
         view.Enter();
 
